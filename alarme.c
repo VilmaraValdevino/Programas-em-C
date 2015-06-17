@@ -24,6 +24,7 @@ int main (void)
 	printf("\nTempo min = \t %d \n\n\n\n",t);
 	
 	//pausando o programa
+	
 	system ("pause");
 	return 0;
 
