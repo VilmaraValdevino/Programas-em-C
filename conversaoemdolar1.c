@@ -1,12 +1,12 @@
-/* Programa que converte valor em ral para dólares */
+/* Programa que converte valor em real para dÃ³lares */
 #include <stdlib.h>
 #include <stdio.h>
 int main(void) {
 float real,dolar,VRED;
-printf ("informe um valor em real e a cotação do dólar:");
+printf ("informe um valor em real e a cotaÃ§Ã£o do dÃ³lar:");
 scanf ("%f %f" , &real, &dolar);
 VRED = real/dolar;
-printf ("O valor real em dólares é = %.2f\n" , VRED);
+printf ("O valor real em dÃ³lares Ã© = %.2f\n" , VRED);
 system ("pause");
 	return 0;
 }
