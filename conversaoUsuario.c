@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
+#include <locale.h>
+
 int main(void)
 {
     //Definindo nacionalidade 
@@ -48,10 +50,10 @@ int main(void)
         break;
          
         default: 
-        printf("\n Invalido !!! \n");
+        printf("\n Inválido !!! \n");
     }   
     
-    // 
+    // Pausando o programa e exibindo na tela "Pressione qualquer tecla para continuar..."
     system ("pause");
     
     // 
