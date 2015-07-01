@@ -25,7 +25,7 @@ int main (void)
     // 
     printf (" O valor à ser pago é: R$ %.2f\n\n\n", valorAserPago);
     
-    //Pausando o programa e exibindo a ensagem "Pressione qualquer tecla para continua..." 
+    //Pausando o programa e exibindo a mensagem "Pressione qualquer tecla para continuar..." 
     system ("pause");
     
     // 
