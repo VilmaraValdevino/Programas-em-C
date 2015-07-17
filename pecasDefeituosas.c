@@ -1,4 +1,4 @@
-/* Programa que verifica apartir da quantidade de peças produzidas quantas dessas peças estão defeituosas e se a quantidade de peças defeituosas for superior à 10%, informa que a máquina necessita de reparo para melhor desempenho! */
+/* Programa que verifica a partir da quantidade de peças produzidas quantas dessas peças estão defeituosas e se a quantidade de peças defeituosas for superior à 10%, informa que a máquina necessita de reparo para melhor desempenho! */
 
 #include <stdio.h>
 #include <stdlib.h>
