@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <locale.h>
  
-int a,b; // declarando variaveis(GLOBAIS) para serem atribuidas à números da operação.
+int a,b; // declarando variaveis(GLOBAIS) para serem atribuidas Ã  nÃºmeros da operaÃ§Ã£o.
  
 //criando meu metodo/funcao
 vilmara(a,b)
@@ -22,7 +22,7 @@ vilmara(a,b)
     scanf ("%d", &b);
     
     //
-    printf ("\n\n Sua soma é : \n %d + %d = %d", a,b,a+b);
+    printf ("\n\n Sua soma Ã© : \n %d + %d = %d", a,b,a+b);
     
 }
  
@@ -32,7 +32,7 @@ main()
    // chamando/instanciando o metodo
    vilmara(a,b);
    
-   //pausando o programa(não exibe a frase para continuar)
+   //pausando o programa(nÃ£o exibe a frase "Pressione qualquer tecla para continuar...")
    getche();
    
 }
