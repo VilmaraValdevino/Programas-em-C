@@ -18,14 +18,14 @@ int main (void)
 	//    	
 	t = 1;
 	
-	//
+	// 
 	while ( t%x!=0 || t%y!=0) 
 	t++;
 	printf("\nTempo min = \t %d \n\n\n\n",t);
 	
 	//pausando o programa
-	
 	system ("pause");
+	
+	// 
 	return 0;
-
 }
