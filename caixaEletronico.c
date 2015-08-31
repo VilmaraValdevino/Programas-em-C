@@ -1,4 +1,4 @@
-/* Escreva um programa que apresente quatro opÁıes: (a) consulta saldo, (b) saque e (c) depÛsito e (d) sair. O saldo deve iniciar em R$ 0,00. A cada saque ou depÛsito o valor do saldo deve ser atualizado.*/
+/* Escreva um programa que apresente quatro op√ß√µes: (a) consulta saldo, (b) saque e (c) dep√≥sito e (d) sair. O saldo deve iniciar em R$ 0,00. A cada saque ou dep√≥sito o valor do saldo deve ser atualizado.*/
  
 #include <stdio.h>
 #include <stdlib.h>
@@ -6,8 +6,8 @@
  
 main()
 {
-     float saldo=0,saque=0,deposito=0; //Declarando vari·veis de tipo real
-     char op; //Declarando vari·veis tipo caractere
+     float saldo=0,saque=0,deposito=0; //Declarando vari√°veis de tipo real
+     char op; //Declarando vari√°veis tipo caractere
       
  
      //Definindo a nacionalidade
@@ -37,7 +37,7 @@ main()
 
      // 
      printf("\n\n [a]---consulta saldo   [b]---saque \n [c]---deposito         [d]---sair \n\n\n");
-     printf("Escolha uma opÁ„o para prosseguir ... ");
+     printf("Escolha uma op√ß√£o para prosseguir ... ");
      scanf("%s",&op);
      
 	 //  
@@ -48,7 +48,7 @@ main()
         	 printf("\n Saldo: R$ %.2f. \n",saldo);
              getche();
              
-             printf("\n\n\nEscolha uma opÁ„o para prosseguir ... ");
+             printf("\n\n\nEscolha uma op√ß√£o para prosseguir ... ");
              scanf("%s",&op); 
          }
          else if(toupper(op=='b'))
@@ -58,17 +58,17 @@ main()
              saldo=saldo-saque;
              getche();
                      
-             printf("\n\n\nEscolha uma opÁ„o para prosseguir ... ");
+             printf("\n\n\nEscolha uma op√ß√£o para prosseguir ... ");
              scanf("%s",&op); 
          }
          else if(toupper(op=='c'))
          {
-             printf("\n Digite o valor ‡ ser depositado: R$  ");
+             printf("\n Digite o valor √† ser depositado: R$  ");
              scanf("%f",&deposito);
              saldo=saldo+deposito;
              getche();
                      
-             printf("\n\n\nEscolha uma opÁ„o para prosseguir ... ");
+             printf("\n\n\nEscolha uma op√ß√£o para prosseguir ... ");
              scanf("%s",&op); 
          }
          else if (toupper(op=='d'))
