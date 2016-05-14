@@ -1,0 +1,50 @@
+/* Bubble Sort  - Programa que ordene os números (6, 2, 1, 3, 4, 5, 8, 7, 0) em ordem decrescente. */
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+ 
+main()
+{
+     // Definindo a nacionalidade
+     setlocale(LC_ALL, "Portuguese");
+     
+     // Definindo cores
+     system ("color db");  
+       
+       int vetor[9] = {6,2,1,3,4,5,8,7,0};
+       int a = 0,
+       b = 0,
+       aux = 0;      
+  
+  
+       // Primeiro Laço, coloca em ordem decrescente (8,7,6,5,4,3,2,1,0) com a seguinte condição.... 
+       for( a = 0; a < 9; a++ )
+       {
+            //Segundo laço 
+            // B recebe (a+1), e se b for menor que 9 então o b passa pra frente
+            for( b=a+1; b<9; b++ ) // sempre 1 elemento à frente
+            {
+                 // Se a posição B do vetor for maior que a posição A do vetor ....
+                 if ( vetor[b] > vetor[a] )
+                 {
+                    aux = vetor[b]; // então usamos  uma variável auxiliar para armazenar os dados da posição B do vetor
+                    vetor[b] = vetor[a]; // pegamos o valor da posição A do vetor e atribuimos a posição B ...
+                    vetor[a] = aux; // e o antigo valor da posição B do vetor que haviamos armazenado na nossa variavel auxiliar atribuimos a posição A do nosso vetor !
+                 }
+            }
+        } // fim da ordenação
+  
+  
+  
+        // 
+        printf("\n\n Elementos ordenados em ordem Decrescente : \n\n");
+  
+        // Terceiro Laço de repetição , Este agora é para impimir o vetor na tela Ordenado em Ordem Decrescente
+        for( a = 0; a < 9; a++ )
+        {
+              printf("\n posição[%d] = %d\n",a,vetor[a]);
+        }
+ 
+      getche();
+}
