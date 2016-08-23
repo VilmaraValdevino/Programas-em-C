@@ -53,7 +53,7 @@ int main()
                  {         
                      superior += M[linha][coluna];
                  }
-                 if (linha > coluna) // linha menor que coluna igual soma dos números abaixo da diagonal principal (Matriz triangular inferior)
+                 if (linha > coluna) // linha maior que coluna igual soma dos números abaixo da diagonal principal (Matriz triangular inferior)
                  {
                     inferior += M[linha][coluna];    
                  }  
